@@ -1,0 +1,139 @@
+{
+  "selected_configuration": {
+    "name": "FO-ANFIS (R=2, reg=5.0)",
+    "n_rules": 2,
+    "lambda_reg": 5.0,
+    "learning_rate": 0.005,
+    "parameters": 44
+  },
+  "validation_selection_summary": [
+    {
+      "name": "FO-ANFIS (R=2, reg=1.0)",
+      "n_rules": 2,
+      "lambda_reg": 1.0,
+      "parameters": 44,
+      "val_rmse": 0.7317509162032216,
+      "val_mae": 0.6464792946610679,
+      "val_r2": -1.1831427055264157
+    },
+    {
+      "name": "FO-ANFIS (R=2, reg=5.0)",
+      "n_rules": 2,
+      "lambda_reg": 5.0,
+      "parameters": 44,
+      "val_rmse": 0.6255283152762938,
+      "val_mae": 0.5569511216711598,
+      "val_r2": -0.5953262896935925
+    },
+    {
+      "name": "FO-ANFIS (R=2, reg=10.0)",
+      "n_rules": 2,
+      "lambda_reg": 10.0,
+      "parameters": 44,
+      "val_rmse": 0.6295201969047602,
+      "val_mae": 0.5625513207830761,
+      "val_r2": -0.6157527795767845
+    },
+    {
+      "name": "FO-ANFIS (R=3, reg=1.0)",
+      "n_rules": 3,
+      "lambda_reg": 1.0,
+      "parameters": 66,
+      "val_rmse": 1.5329293694139985,
+      "val_mae": 1.4600610511487115,
+      "val_r2": -8.580757886446863
+    },
+    {
+      "name": "FO-ANFIS (R=3, reg=5.0)",
+      "n_rules": 3,
+      "lambda_reg": 5.0,
+      "parameters": 66,
+      "val_rmse": 1.2601160309278039,
+      "val_mae": 1.1915412116815407,
+      "val_r2": -5.474058935805388
+    },
+    {
+      "name": "FO-ANFIS (R=3, reg=10.0)",
+      "n_rules": 3,
+      "lambda_reg": 10.0,
+      "parameters": 66,
+      "val_rmse": 1.2055547137463556,
+      "val_mae": 1.1397794022109164,
+      "val_r2": -4.925560360438635
+    },
+    {
+      "name": "FO-ANFIS (R=5, reg=1.0)",
+      "n_rules": 5,
+      "lambda_reg": 1.0,
+      "parameters": 110,
+      "val_rmse": 1.4319483902409533,
+      "val_mae": 1.343419547306471,
+      "val_r2": -7.360077559530593
+    },
+    {
+      "name": "FO-ANFIS (R=5, reg=5.0)",
+      "n_rules": 5,
+      "lambda_reg": 5.0,
+      "parameters": 110,
+      "val_rmse": 1.1170176955778832,
+      "val_mae": 1.0357552493260416,
+      "val_r2": -4.087163333970044
+    },
+    {
+      "name": "FO-ANFIS (R=5, reg=10.0)",
+      "n_rules": 5,
+      "lambda_reg": 10.0,
+      "parameters": 110,
+      "val_rmse": 1.075227148971743,
+      "val_mae": 0.9992648881800319,
+      "val_r2": -3.7136357451069557
+    }
+  ],
+  "test_benchmark_metrics": [
+    {
+      "model": "ANFIS (First-Order Sugeno, Selected)",
+      "parameters": 44,
+      "test_rmse_percent": 0.8574,
+      "test_mae_percent": 0.8246,
+      "test_r2_score": -1.456,
+      "test_mean_bias_percent": 0.8246,
+      "test_max_error_percent": 1.424
+    },
+    {
+      "model": "ANFIS (Zero-Order Sugeno, Baseline)",
+      "parameters": 75,
+      "test_rmse_percent": 2.4935,
+      "test_mae_percent": 2.4473,
+      "test_r2_score": -19.7706,
+      "test_mean_bias_percent": 2.4473,
+      "test_max_error_percent": 3.5267
+    },
+    {
+      "model": "Multi-Layer Perceptron (ANN)",
+      "parameters": 2625,
+      "test_rmse_percent": 1.1202,
+      "test_mae_percent": 1.0933,
+      "test_r2_score": -3.192,
+      "test_mean_bias_percent": 1.0933,
+      "test_max_error_percent": 1.9251
+    },
+    {
+      "model": "Random Forest Regressor",
+      "parameters": 4546,
+      "test_rmse_percent": 3.4969,
+      "test_mae_percent": 3.4362,
+      "test_r2_score": -39.8516,
+      "test_mean_bias_percent": 3.4362,
+      "test_max_error_percent": 4.5944
+    },
+    {
+      "model": "Train-Mean Baseline",
+      "parameters": 1,
+      "test_rmse_percent": 6.7187,
+      "test_mae_percent": 6.6964,
+      "test_r2_score": -149.803,
+      "test_mean_bias_percent": 6.6964,
+      "test_max_error_percent": 7.7597
+    }
+  ]
+}

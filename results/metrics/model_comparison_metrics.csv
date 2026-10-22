@@ -1,0 +1,10 @@
+model,split,rmse_percent,mae_percent,max_error_percent,r2_score,parameters
+ANFIS,train,0.3813,0.2777,1.5692,0.9836,75
+ANFIS,val,1.1796,1.0687,2.0885,-4.6734,75
+ANFIS,test,2.4935,2.4473,3.5266,-19.7706,75
+Random_Forest,train,0.1846,0.1268,0.9384,0.9962,4546
+Random_Forest,val,1.5027,1.3933,2.8308,-8.2072,4546
+Random_Forest,test,3.4969,3.4362,4.5944,-39.8522,4546
+MLP_ANN,train,0.3251,0.2313,1.3853,0.9881,2625
+MLP_ANN,val,0.8748,0.8236,1.4533,-2.1203,2625
+MLP_ANN,test,1.1202,1.0933,1.9251,-3.192,2625

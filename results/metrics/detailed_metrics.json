@@ -1,0 +1,47 @@
+{
+  "ANFIS": {
+    "train_rmse_percent": 0.3813,
+    "train_mae_percent": 0.2777,
+    "train_max_error_percent": 1.5692,
+    "train_r2_score": 0.9836,
+    "val_rmse_percent": 1.1796,
+    "val_mae_percent": 1.0687,
+    "val_max_error_percent": 2.0885,
+    "val_r2_score": -4.6734,
+    "test_rmse_percent": 2.4935,
+    "test_mae_percent": 2.4473,
+    "test_max_error_percent": 3.5266,
+    "test_r2_score": -19.7706,
+    "parameters": 75
+  },
+  "Random_Forest": {
+    "train_rmse_percent": 0.1846,
+    "train_mae_percent": 0.1268,
+    "train_max_error_percent": 0.9384,
+    "train_r2_score": 0.9962,
+    "val_rmse_percent": 1.5027,
+    "val_mae_percent": 1.3933,
+    "val_max_error_percent": 2.8308,
+    "val_r2_score": -8.2072,
+    "test_rmse_percent": 3.4969,
+    "test_mae_percent": 3.4362,
+    "test_max_error_percent": 4.5944,
+    "test_r2_score": -39.8522,
+    "parameters": 4546
+  },
+  "MLP_ANN": {
+    "train_rmse_percent": 0.3251,
+    "train_mae_percent": 0.2313,
+    "train_max_error_percent": 1.3853,
+    "train_r2_score": 0.9881,
+    "val_rmse_percent": 0.8748,
+    "val_mae_percent": 0.8236,
+    "val_max_error_percent": 1.4533,
+    "val_r2_score": -2.1203,
+    "test_rmse_percent": 1.1202,
+    "test_mae_percent": 1.0933,
+    "test_max_error_percent": 1.9251,
+    "test_r2_score": -3.192,
+    "parameters": 2625
+  }
+}

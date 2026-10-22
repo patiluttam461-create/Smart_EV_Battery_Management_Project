@@ -1,0 +1,6 @@
+baseline_name,deployable,parameters,test_rmse_percent,test_mae_percent,test_r2_score,test_mean_bias_percent,test_max_error_percent,information_available
+Train-Mean Baseline,True,1,6.7187,6.6964,-149.803,6.6964,7.7597,Training set mean SOH only (Cycles 1–371; 90.9634%)
+Persistence (Last Known Train SOH),True,1,2.584,2.5254,-21.3064,2.5254,3.5887,SOH at final training calibration cycle (Cycle 371; 86.7921%)
+Persistence (Last Known Val SOH),True,1,0.9747,0.818,-2.1736,0.8066,1.8699,SOH at final pre-deployment validation cycle (Cycle 464; 85.0732%)
+Linear Aging Trend on CN,True,2,2.3425,2.3085,-17.3307,-2.3085,2.9552,OLS linear degradation slope & intercept fit on training cycles (1–371)
+Oracle Test-Mean (Non-Deployable Reference),False,1,0.5471,0.4603,0.0,0.0,1.183,Future held-out test labels mean (84.2670%; theoretical oracle lower bound)

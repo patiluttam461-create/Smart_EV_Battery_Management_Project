@@ -1,0 +1,6 @@
+model,parameters,test_rmse_percent,test_mae_percent,test_r2_score,test_mean_bias_percent,test_max_error_percent
+"ANFIS (First-Order Sugeno, Selected)",44,0.8574,0.8246,-1.456,0.8246,1.424
+"ANFIS (Zero-Order Sugeno, Baseline)",75,2.4935,2.4473,-19.7706,2.4473,3.5267
+Multi-Layer Perceptron (ANN),2625,1.1202,1.0933,-3.192,1.0933,1.9251
+Random Forest Regressor,4546,3.4969,3.4362,-39.8516,3.4362,4.5944
+Train-Mean Baseline,1,6.7187,6.6964,-149.803,6.6964,7.7597

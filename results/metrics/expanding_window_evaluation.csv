@@ -1,0 +1,5 @@
+fold_name,train_samples,test_samples,test_rmse_percent,test_mae_percent,test_r2_score,test_mean_bias_percent,test_max_error_percent
+Fold 1: CN 201–300,200,100,0.6944,0.4917,0.3417,-0.0479,2.0219
+Fold 2: CN 301–400,300,100,0.7456,0.606,0.1973,0.5325,2.1333
+Fold 3: CN 401–500,400,100,0.7209,0.6947,-1.0289,0.6923,1.0091
+Fold 4: CN 501–580,500,80,0.2821,0.2389,0.5552,0.2065,0.8783

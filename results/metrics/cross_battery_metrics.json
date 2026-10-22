@@ -1,0 +1,64 @@
+{
+  "evaluation_type": "Cross-Battery Generalization (Battery 1 -> Battery 2)",
+  "training_source": "Samsung INR18650-35E Battery 1 (Cycles 1-371)",
+  "validation_source": "Samsung INR18650-35E Battery 1 (Cycles 372-464)",
+  "test_target": "Samsung INR18650-35E Battery 2",
+  "battery2_sample_count": 580,
+  "battery1_validation_bias_percent": 0.5145,
+  "models_comparison": [
+    {
+      "model": "ANFIS (First-Order Sugeno, Uncalibrated)",
+      "parameters": 44,
+      "b2_rmse_percent": 0.7725,
+      "b2_mae_percent": 0.6349,
+      "b2_r2_score": 0.9583,
+      "b2_mean_bias_percent": 0.5193,
+      "b2_max_error_percent": 2.6612
+    },
+    {
+      "model": "ANFIS (First-Order Sugeno, Val-Calibrated)",
+      "parameters": 44,
+      "b2_rmse_percent": 0.5719,
+      "b2_mae_percent": 0.4583,
+      "b2_r2_score": 0.9771,
+      "b2_mean_bias_percent": 0.0048,
+      "b2_max_error_percent": 3.1757
+    },
+    {
+      "model": "Train-Mean Baseline (Battery 1 Mean)",
+      "parameters": 1,
+      "b2_rmse_percent": 4.9424,
+      "b2_mae_percent": 4.309,
+      "b2_r2_score": -0.7071,
+      "b2_mean_bias_percent": 3.1809,
+      "b2_max_error_percent": 8.6693
+    },
+    {
+      "model": "Persistence Baseline (Final B1 Train Cycle)",
+      "parameters": 1,
+      "b2_rmse_percent": 3.9102,
+      "b2_mae_percent": 3.0762,
+      "b2_r2_score": -0.0685,
+      "b2_mean_bias_percent": -0.9901,
+      "b2_max_error_percent": 10.4234
+    },
+    {
+      "model": "Persistence Baseline (Initial B2 State)",
+      "parameters": 1,
+      "b2_rmse_percent": 10.1635,
+      "b2_mae_percent": 9.4333,
+      "b2_r2_score": -6.2189,
+      "b2_mean_bias_percent": 9.4333,
+      "b2_max_error_percent": 14.9217
+    },
+    {
+      "model": "Linear Trend Extrapolation Baseline",
+      "parameters": 2,
+      "b2_rmse_percent": 1.3506,
+      "b2_mae_percent": 1.1349,
+      "b2_r2_score": 0.8725,
+      "b2_mean_bias_percent": 0.3844,
+      "b2_max_error_percent": 3.0697
+    }
+  ]
+}
